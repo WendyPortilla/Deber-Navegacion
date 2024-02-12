@@ -8,7 +8,7 @@ interface Props extends StackScreenProps<RootStackParamList,'ScreenInicio'>{};
 export const ScreenInicio = ({ navigation }:Props) => {
   return (
     <View>
-        <Text> BIENVENIDO</Text>
+        <Text> BIENVENIDOS</Text>
         <Image
             source={{ 
                 uri:"https://significado.com/contenido/imp/apps.jpg"
